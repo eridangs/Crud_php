@@ -13,7 +13,7 @@
 
         $cliente = mysqli_fetch_assoc($result);
 
-        // var_dump($cliente);
+        // $cliente);
         // echo $cliente['nome'];
     }else{
         header('location:index.php');
